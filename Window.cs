@@ -37,22 +37,22 @@ namespace Lakitu
             mesh.Textures.Add(new Texture("Tex", new Bitmap("Gota.png"), false, false));
             mesh.Vertices.Add(new Vertex() {
                 Position = new Vector3(0.5f,  0.5f, 0.0f),
-                VertexColor = new Vector3(1, 1, 1),
+                VertexColor = new Vector3(1, 0, 1),
                 UV = new Vector2(1, 0)
             });
             mesh.Vertices.Add(new Vertex() {
                 Position = new Vector3(0.5f, -0.5f, 0.0f),
-                VertexColor = new Vector3(1, 1, 1),
+                VertexColor = new Vector3(0, 1, 0),
                 UV = new Vector2(1, 1)
             });
             mesh.Vertices.Add(new Vertex() {
                 Position = new Vector3(-0.5f, -0.5f, 0.0f),
-                VertexColor = new Vector3(1, 1, 1),
+                VertexColor = new Vector3(1, 0, 0),
                 UV = new Vector2(0, 1)
             });
             mesh.Vertices.Add(new Vertex() {
                 Position = new Vector3(-0.5f,  0.5f, 0.0f),
-                VertexColor = new Vector3(1, 1, 1),
+                VertexColor = new Vector3(0, 0, 1),
                 UV = new Vector2(0, 0)
             });
             mesh.Indices.AddRange(new uint[] { 0, 1, 3, 1, 2, 3 });
